@@ -24,9 +24,62 @@ An Electron browser window should open, followed by the creation of a cow image 
 
 Requires at least 8GB of RAM.
 
+## Examples
+
+<div align="center">
+
+![Royal Tenenbaum](https://raw.githubusercontent.com/elliotbradly/glop00/main/examples/00.png)
+
+</div>
+
+<div align="center"> Royal Tenenbaum </div>
+
+<div align="center">
+
+![Royal Tenenbaum](https://raw.githubusercontent.com/elliotbradly/glop00/main/examples/01.png)
+
+</div>
+
+<div align="center"> Abstraction </div>
+
+<div align="center">
+
+![Royal Tenenbaum](https://raw.githubusercontent.com/elliotbradly/glop00/main/examples/02.png)
+
+</div>
+
+<div align="center"> Child with Gigi </div>
+
+<div align="center">
+
+![Royal Tenenbaum](https://raw.githubusercontent.com/elliotbradly/glop00/main/examples/03.png)
+
+</div>
+
+<div align="center"> Alligator Earth </div>
+
+<div align="center">
+
+![Royal Tenenbaum](https://raw.githubusercontent.com/elliotbradly/glop00/main/examples/04.png)
+
+</div>
+
+<div align="center"> Our Earth </div>
+
 ## Design
 
 This program works by sampling from the source image random x and y values between a distance in pixels. The points are then used and replaced with a png file from the mrk directory and overlayed on top of the final work untill all the sample points have been process with small variation in color to the final pixel values used. A palette file restricts the colors used with a small sample.
+
+Example Marks
+![Mark One](https://raw.githubusercontent.com/elliotbradly/glop00/main/examples/000.png)
+
+![Mark Two](https://raw.githubusercontent.com/elliotbradly/glop00/main/examples/001.png)
+
+![Mark Three](https://raw.githubusercontent.com/elliotbradly/glop00/main/examples/003.png)
+
+![Mark Four](https://raw.githubusercontent.com/elliotbradly/glop00/main/examples/004.png)
+
+![Mark Five](https://raw.githubusercontent.com/elliotbradly/glop00/main/examples/005.png)
 
 ### File System Structure
 
